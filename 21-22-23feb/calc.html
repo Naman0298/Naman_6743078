@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <main class="calculator">
+        <h1>Simple Calculator</h1>
+
+        <div class="inputs">
+            <label>
+                <input id="a" type="number" inputmode="decimal" placeholder="First number">
+            </label>
+            <label>
+                <input id="b" type="number" inputmode="decimal" placeholder="Second number">
+            </label>
+        </div>
+
+        <div class="buttons">
+            <button id="add">+</button>
+            <button id="sub">−</button>
+            <button id="mul">×</button>
+            <button id="div">÷</button>
+            <button id="clear">Clear</button>
+        </div>
+        <div class="result">Result: <span id="result">—</span></div>
+    </main>
+
+    <script src="calc.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+body {
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-size: 20px;
+}
+
+#ab {
+    font-size: 40px;
+}
+
+
+.c1 {
+    font-family: cursive;
+    background-color: aquamarine;
+}
+
+#b,
+p,
+.c1 {
+    font-family: fantasy;
+}
+
+p::first-letter {
+    color: blue;
+}
+
+p::after {
+    content: "😊";
+}
+
+p::before {
+    content: "😂";
+}
+
+h2 {
+    background: linear-gradient(to left, rgb(26, 114, 88), rgb(128, 60, 148));
+}

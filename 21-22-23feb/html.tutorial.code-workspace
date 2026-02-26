@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../html.tutorial"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "typescript"
+	}
+}
