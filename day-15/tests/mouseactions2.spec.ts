@@ -6,3 +6,7 @@ test("Mouse actions", async ({ page }) => {
     await page.locator('input[type="checkbox"]').check()
     await page.waitForTimeout(5000)
 })
+
+
+
+
