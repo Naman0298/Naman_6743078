@@ -1,0 +1,17 @@
+(node:20452) Warning: Failed to load the ES module: C:\Users\naman\OneDrive\Desktop\Capgemini Assessment\18th March 2026\tests\mocha.test.ts. Make sure to set "type": "module" in the nearest package.json file or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+ Exception during run: C:\Users\naman\OneDrive\Desktop\Capgemini Assessment\18th March 2026\tests\mocha.test.ts:1
+import { chromium } from "playwright";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at loadCJSModule (node:internal/modules/esm/translators:116:25)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:232:7)
+    at ModuleJob.run (node:internal/modules/esm/module_job:430:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:655:26)
+    at async formattedImport (C:\Users\naman\OneDrive\Desktop\Capgemini Assessment\18th March 2026\node_modules\mocha\lib\nodejs\esm-utils.js:10:14)
+    at async Object.requireModule [as requireOrImport] (C:\Users\naman\OneDrive\Desktop\Capgemini Assessment\18th March 2026\node_modules\mocha\lib\nodejs\esm-utils.js:102:30)
+    at async Object.exports.loadFilesAsync (C:\Users\naman\OneDrive\Desktop\Capgemini Assessment\18th March 2026\node_modules\mocha\lib\nodejs\esm-utils.js:152:20)
+    at async singleRun (C:\Users\naman\OneDrive\Desktop\Capgemini Assessment\18th March 2026\node_modules\mocha\lib\cli\run-helpers.js:168:3)
+    at async Object.exports.handler (C:\Users\naman\OneDrive\Desktop\Capgemini Assessment\18th March 2026\node_modules\mocha\lib\cli\run.js:379:5)
